@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>jQuery Forms</title>
+    <script src="jquery-3.0.0.min.js"></script>
+    <script src="client.js"></script>
+  </head>
+  <body>
+    <h1>jQuery Forms</h1>
+    <form id="employeeForm" action="/addEmployee" method="POST">
+      <label for="nameFirst">First Name: </label>
+      <input type="text" name="firstName" id="nameFirst"/>
+      <br />
+
+      <label for="nameLast">Last Name: </label>
+      <input type="text" name="lastName" id="nameLast"/>
+      <br />
+
+      <label for="position">Position: </label>
+      <input type="text" name="position" id="position"/>
+      <br />
+
+      <label for="salary">Salary: </label>
+      <input type="number" name="salary" id="salary"/>
+      <br />
+
+      <label for="manager">Manager: </label>
+      <input type="checkbox" name="manager" id="manager"/>
+      <br />
+
+      <label for="teamB">Team Imaginarium: </label>
+      <input type="radio" name="team" id="teamA"/>
+      <br />
+
+      <label for="teamB">Team Collaboratory: </label>
+      <input type="radio" name="team" id="teamB"/>
+      <br />
+
+      <input type="submit" />
+
+
+
+    </form>
+  </body>
+</html>
